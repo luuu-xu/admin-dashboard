@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style> -->
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-top">
+                <div class="search-bar">
+                    <form id="search-form"> 
+                        <button class="btn-search-bar"><span class="material-icons-outlined">
+                            search
+                        </span></button>
+                        <input type="search" id="query" name="q">
+                    </form>
+                </div>
+                <div class="user-info">
+                    <button class="btn-notification"><span class="material-icons-outlined">
+                        notifications_active
+                        </span></button>
+                    <div class="user-info-avatar"><span class="material-icons-outlined">
+                        surfing
+                        </span></div>
+                    <div class="user-info-name">luuu-xu</div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="user-welcome">
+                    <div class="user-welcome-avatar"><span class="material-icons-outlined">
+                        surfing
+                        </span></div>
+                    <div class="user-welcome-text">
+                        <div class="user-welcome-text-hi">Hi there,</div>
+                        <div class="user-welcome-text-name">luuu-xu (@luuu-xu)</div>
+                    </div>
+                </div>
+                <div class="user-welcome-btns">
+                    <button class="user-welcome-btn">New</button>
+                    <button class="user-welcome-btn">Upload</button>
+                    <button class="user-welcome-btn">Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="branding">
+                <button class="btn-branding"><span class="material-icons-outlined">
+                    face
+                    </span>Dashboard</button>
+            </div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li>
+                        <button class="btn-nav"><span class="material-icons-outlined">
+                        home
+                        </span>Home</button>
+                    </li>
+                    <li>
+                        <button class="btn-nav"><span class="material-icons-outlined">
+                        account_circle
+                        </span>Profile</button>
+                    </li>
+                    <li>
+                        <button class="btn-nav"><span class="material-icons-outlined">
+                        message
+                        </span>Messages</button>
+                    </li>
+                    <li>
+                        <button class="btn-nav"><span class="material-icons-outlined">
+                        history
+                        </span>History</button>
+                    </li>
+                    <li>
+                        <button class="btn-nav"><span class="material-icons-outlined">
+                        task
+                        </span>Tasks</button>
+                    </li>
+                    <li>
+                        <button class="btn-nav"><span class="material-icons-outlined">
+                        groups
+                        </span>Communities</button>
+                    </li>    
+                </ul>
+            </div>
+            <div class="setting">
+                <ul class="setting-list">
+                    <li>
+                        <button class="btn-setting"><span class="material-icons-outlined">
+                        settings
+                        </span>Settings</button>
+                    </li>
+                    <li>
+                        <button class="btn-setting"><span class="material-icons-outlined">
+                            help_center
+                            </span>Support</button>
+                    </li>
+                    <li>
+                        <button class="btn-setting"><span class="material-icons-outlined">
+                            privacy_tip
+                            </span>Privacy</button>  
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="projects">
+                <div class="main-content-headers">Your Projects</div>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <div class="project-card-inside">
+                            <div class="project-header">Super Cool Project</div>
+                            <div class="project-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros mi, congue viverra consequat vel, posuere et leo. Nunc sed aliquet purus, in consectetur augue. Ut iaculis diam velit, id cursus nibh imperdiet interdum.</div>
+                            <div class="project-btns">
+                                <button class="btn-project-bookmmark"><span class="material-icons-outlined">
+                                    bookmark_add
+                                    </span></button>
+                                <button class="btn-project-notification"><span class="material-icons-outlined">
+                                    notification_add
+                                    </span></button>
+                                <button class="btn-project-share"><span class="material-icons-outlined">
+                                    share
+                                    </span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-card-inside">
+                            <div class="project-header">Less Cool Project</div>
+                            <div class="project-text">Sed vitae dui non lectus aliquet ornare eget sit amet velit. Nulla suscipit suscipit mauris, eget aliquet arcu cursus eget. Aliquam in tincidunt ante.</div>
+                            <div class="project-btns">
+                                <button class="btn-project-bookmmark"><span class="material-icons-outlined">
+                                    bookmark_add
+                                    </span></button>
+                                <button class="btn-project-notification"><span class="material-icons-outlined">
+                                    notification_add
+                                    </span></button>
+                                <button class="btn-project-share"><span class="material-icons-outlined">
+                                    share
+                                    </span></button>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="project-card">   
+                        <div class="project-card-inside">
+                            <div class="project-header">Impossible App</div>
+                            <div class="project-text">Nullam tincidunt ornare tellus, sodales elementum justo iaculis vel. In hendrerit gravida finibus. Donec tincidunt augue libero, aliquam accumsan purus pulvinar at.</div>
+                            <div class="project-btns">
+                                <button class="btn-project-bookmmark"><span class="material-icons-outlined">
+                                    bookmark_add
+                                    </span></button>
+                                <button class="btn-project-notification"><span class="material-icons-outlined">
+                                    notification_add
+                                    </span></button>
+                                <button class="btn-project-share"><span class="material-icons-outlined">
+                                    share
+                                    </span></button>
+                            </div>
+                        </div>                     
+                    </div>
+                    <div class="project-card">    
+                        <div class="project-card-inside">
+                            <div class="project-header">Easy Peasy App</div>
+                            <div class="project-text">Pellentesque felis neque, fermentum eget diam a, pulvinar dapibus dolor. Praesent vitae turpis sapien. </div>
+                            <div class="project-btns">
+                                <button class="btn-project-bookmmark"><span class="material-icons-outlined">
+                                    bookmark_add
+                                    </span></button>
+                                <button class="btn-project-notification"><span class="material-icons-outlined">
+                                    notification_add
+                                    </span></button>
+                                <button class="btn-project-share"><span class="material-icons-outlined">
+                                    share
+                                    </span></button>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="project-card">           
+                        <div class="project-card-inside">
+                            <div class="project-header">Ad Blocker</div>
+                            <div class="project-text">Mauris imperdiet libero leo, mollis rutrum lacus eleifend at. Vestibulum tincidunt odio ac varius ornare.</div>
+                            <div class="project-btns">
+                                <button class="btn-project-bookmmark"><span class="material-icons-outlined">
+                                    bookmark_add
+                                    </span></button>
+                                <button class="btn-project-notification"><span class="material-icons-outlined">
+                                    notification_add
+                                    </span></button>
+                                <button class="btn-project-share"><span class="material-icons-outlined">
+                                    share
+                                    </span></button>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="project-card">   
+                        <div class="project-card-inside">
+                            <div class="project-header">Money Maker</div>
+                            <div class="project-text">Vestibulum suscipit urna quis nunc hendrerit consectetur. Maecenas tempor venenatis nulla, at scelerisque magna tempor ac. Integer id pellentesque magna. Etiam mollis dignissim finibus. Nulla facilisi.</div>
+                            <div class="project-btns">
+                                <button class="btn-project-bookmmark"><span class="material-icons-outlined">
+                                    bookmark_add
+                                    </span></button>
+                                <button class="btn-project-notification"><span class="material-icons-outlined">
+                                    notification_add
+                                    </span></button>
+                                <button class="btn-project-share"><span class="material-icons-outlined">
+                                    share
+                                    </span></button>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+            <div class="main-content-right">
+                <div class="announcements">
+                    <div class="main-content-headers">Announcements</div>
+                    <div class="announcements-card">
+                        <div class="announcements-inside">
+                            <div class="announcement">
+                                <div class="announcement-header">Site Maintenance</div>
+                                <div class="announcement-text">Nulla nec molestie lacus. Etiam accumsan odio ac tincidunt condimentum. Vestibulum eu lorem porta. </div>
+                            </div>
+                            <hr class="announcement-line">
+                            <div class="announcement">
+                                <div class="announcement-header">Community Share Day</div>
+                                <div class="announcement-text">Nunc commodo justo eu laoreet scelerisque. Curabitur sit amet eros leo. </div>
+                            </div>
+                            <hr class="announcement-line">
+                            <div class="announcement">
+                                <div class="announcement-header">Updated Privacy Policy</div>
+                                <div class="announcement-text">Proin malesuada dui ut nunc bibendum, id efficitur ligula accumsan. Suspendisse placerat ac dui id dapibus. </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trending">
+                    <div class="main-content-headers">Trending</div>
+                    <div class="trending-card">
+                        <div class="trending-inside">
+                            <div class="trending-user user1">
+                                <div class="trending-user-avatar"><span class="material-icons-outlined">
+                                    kayaking
+                                    </span></div>
+                                <div class="trending-user-text">
+                                    <div class="trending-user-id">@tegan</div>
+                                    <div class="trending-user-name">World Peace Builder</div>
+                                </div>
+                            </div>
+                            <div class="trending-user user2">
+                                <div class="trending-user-avatar"><span class="material-icons-outlined">
+                                    surfing
+                                    </span></div>
+                                <div class="trending-user-text">
+                                    <div class="trending-user-id">@luuu-xu</div>
+                                    <div class="trending-user-name">Dashboard Project</div>
+                                </div>
+                            </div>
+                            <div class="trending-user user3">
+                                <div class="trending-user-avatar"><span class="material-icons-outlined">
+                                    self_improvement
+                                    </span></div>
+                                <div class="trending-user-text">
+                                    <div class="trending-user-id">@kendall</div>
+                                    <div class="trending-user-name">Life Changing App</div>
+                                </div>
+                            </div>
+                            <div class="trending-user user4">
+                                <div class="trending-user-avatar"><span class="material-icons-outlined">
+                                    sports_martial_arts
+                                    </span></div>
+                                <div class="trending-user-text">
+                                    <div class="trending-user-id">@alex</div>
+                                    <div class="trending-user-name">No Traffic Maker</div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
